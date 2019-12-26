@@ -1,0 +1,6 @@
+<!--index.wxml-->
+<view class="container">
+  <text>{{countDown}}</text>
+  <button bindtap='startTimer'>开始计时</button>
+  <button bindtap='stopTimer'>结束计时</button>
+</view>
